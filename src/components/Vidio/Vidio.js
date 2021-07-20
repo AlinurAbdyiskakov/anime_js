@@ -7,7 +7,7 @@ function Vidio() {
         div >
         <
         video src = { vidio }
-        controls autoPlay > < /video>  <
+        controls autoPlay loop > < /video>  <
         /div>
     )
 }

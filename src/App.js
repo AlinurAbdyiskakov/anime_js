@@ -15,7 +15,7 @@ function App() {
         div class = "Big" > < img src = { logo }
         alt = "logo" / >
         <
-        h1 > Anime js < /h1></div >
+        h1 > Musik js < /h1></div >
         <
         ul >
         <
