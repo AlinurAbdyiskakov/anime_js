@@ -23,12 +23,11 @@ function App() {
         li > Search < /li> <
         li > help < /li> <
         /ul></div >
+
+
         <
+        /div> <
         main > < Vidio / > < /main>
-
-        <
-        /div>
-
 
 
         <
