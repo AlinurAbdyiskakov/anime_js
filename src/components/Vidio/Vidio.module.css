@@ -1,0 +1,11 @@
+.Vidio {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Vidio video {
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+}

@@ -21,22 +21,26 @@ function App() {
 
         <
         /div> <
-        div className = "Drower" > {
-            /* <Link to="/jaz">Джаз</Link>
-                   <Link to="/rep">Хип-хоп-музыка</Link>
-                   <Link to="/mashina">Эектроная музука</Link>
-                   <Link to="/bass">Басс</Link>
-                   <Link to="/jam">Ара́бская му́зыка</Link>
-                   <Link to="/cantacts">Cantacts</Link> */
-        } <
+        div className = "Drower" >
+        <
+        Link to = "/musec" > Musec < /Link> <
+        Link to = "/anime" > Anime < /Link> <
+        Link to = "/kino" > Kino < /Link>
+
+        <
         /div> <
         div className = "dom" >
         <
-        div class = "face" > < Route path = "/"
+        div class = "face" >
+        <
+        Route path = "/"
         component = { Vidio }
         exact / >
         <
         Route path = "/alo"
+        component = { Vidio }
+        /> <
+        Route path = "/musec"
         component = { Vidio }
         /></div >
 
