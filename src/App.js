@@ -21,14 +21,14 @@ function App() {
 
         <
         /div> <
-        div className = "Drower" >
-        <
-        Link to = "/jaz" > Джаз < /Link> <
-        Link to = "/rep" > Хип - хоп - музыка < /Link> <
-        Link to = "/mashina" > Эектроная музука < /Link> <
-        Link to = "/bass" > Басс < /Link> <
-        Link to = "/jam" > Ара́бская му́зыка < /Link> <
-        Link to = "/cantacts" > Cantacts < /Link> <
+        div className = "Drower" > {
+            /* <Link to="/jaz">Джаз</Link>
+                   <Link to="/rep">Хип-хоп-музыка</Link>
+                   <Link to="/mashina">Эектроная музука</Link>
+                   <Link to="/bass">Басс</Link>
+                   <Link to="/jam">Ара́бская му́зыка</Link>
+                   <Link to="/cantacts">Cantacts</Link> */
+        } <
         /div> <
         div className = "dom" >
         <
