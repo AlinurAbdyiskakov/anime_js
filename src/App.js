@@ -3,6 +3,7 @@ import Vidio from './components/Vidio/Vidio';
 import logo from './imges/logo.png';
 import { Route } from 'react-router';
 import { Link } from 'react-router-dom';
+import Home from './components/Home/Home';
 
 function App() {
     return ( <
@@ -34,7 +35,7 @@ function App() {
         div class = "face" >
         <
         Route path = "/"
-        component = { Vidio }
+        component = { Home }
         exact / >
         <
         Route path = "/alo"
