@@ -16,23 +16,14 @@ function App() {
         <
         h1 > Musik js < /h1> <
         Link to = "/" > Home < /Link> <
-        Link to = "/about/like" > About < /Link> <
+        Link to = "/musec" > Musec < /Link> <
         Link to = "/cantacts" > Cantacts < /Link>
 
 
         <
-        /div> <
-        div className = "Drower" >
-        <
-        Link to = "/musec" > Musec < /Link> <
-        Link to = "/anime" > Anime < /Link> <
-        Link to = "/kino" > Kino < /Link>
+        /div>
 
-        <
-        /div> <
-        div className = "dom" >
-        <
-        div class = "face" >
+
         <
         Route path = "/"
         component = { Home }
@@ -45,12 +36,10 @@ function App() {
         component = { Vidio }
         /></div >
 
-        <
-        /div>  
 
 
-        <
-        /div>
+
+
     );
 }
 
