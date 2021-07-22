@@ -1,9 +1,8 @@
 import React from 'react'
 import classes from '../Home/Home.module.css'
-import { useState } from 'react'
 
 function Home() {
-    const [name, setName] = ('')
+
     return ( <
         div className = { classes.Home } >
         <
