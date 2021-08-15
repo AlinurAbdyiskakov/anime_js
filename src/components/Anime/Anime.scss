@@ -1,0 +1,22 @@
+$color:#fff;
+$bcolor:blue;
+.Anime {
+    color: $color;
+    background-color: $bcolor;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+video {
+    width: 300px;
+    height: 400px;
+}
+
+.anime_1 {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

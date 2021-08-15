@@ -1,0 +1,33 @@
+import React from 'react'
+import './Anime.scss'
+import anime_1 from '../../vidio/anime_2.mp4';
+import anime_2 from '../../vidio/anime_1.mp4';
+import anime_3 from '../../vidio/anime_3.mp4';
+
+function Anime() {
+    return ( <
+        div class = "Anime" >
+        <
+        div class = "anime_1" >
+        <
+        video src = { anime_1 }
+        controls loop > < /video> <
+        h1 > аниме гаргантия на зелёной планете < /h1> <
+        /div> <
+        div class = "anime_1" >
+        <
+        video src = { anime_2 }
+        controls loop > < /video> <
+        h1 > аниме невиданный цветок < /h1> <
+        /div> <
+        div class = "anime_1" >
+        <
+        video src = { anime_3 }
+        controls loop > < /video> <
+        h1 > повседневная жизнь бессмертного короля < /h1> <
+        /div> <
+        /div>
+    )
+}
+
+export default Anime
