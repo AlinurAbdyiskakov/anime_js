@@ -28,7 +28,7 @@ function Redux_1() {
         <
         div class = "img_1" >
         <
-        h1 > < /h1> <
+        h1 > helo < /h1> <
         /div> <
         /div>
     )

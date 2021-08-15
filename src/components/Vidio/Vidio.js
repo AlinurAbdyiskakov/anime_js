@@ -2,7 +2,7 @@ import React from 'react'
 import classes from '../Vidio/Vidio.module.css'
 import vidio from '../../vidio/vidio.mp4'
 import vidio2 from '../../vidio/vidio2.mp4'
-import anime_1 from '../../vidio/anime_1.mp4';
+
 // import mp4 from'./https://youtu.be/gnNvrq977B8'
 function Vidio() {
     return ( <
@@ -14,7 +14,7 @@ function Vidio() {
         controls loop > < /video>  <
         video src = { vidio2 }
         controls loop > < /video> <
-        video src = { anime_1 }
+        video src = { vidio2 }
         controls loop > < /video>  <
         video src = { vidio }
         controls loop > < /video>  <
