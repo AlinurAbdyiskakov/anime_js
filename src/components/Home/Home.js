@@ -6,14 +6,17 @@ function Home() {
     return ( <
         div className = { classes.Home } >
         <
-        div class = "margin" > 
-        <h1> Welcome </h1> 
-         <p> My names Alinur </p>
-        </div>
-        <span > Write problems sait </span> 
-        <input type = "text" / >
-        <button> Push </button>
-         </div>
+        div class = "margin" >
+        <
+        h1 className = { classes.h1 } > Error < /h1> <
+        h1 > Welcome < /h1>  <
+        p > My names Alinur < /p> <
+        /div> <
+        span > Write problems sait < /span>  <
+        input type = "text" / >
+        <
+        button > Push < /button> <
+        /div>
     )
 }
 

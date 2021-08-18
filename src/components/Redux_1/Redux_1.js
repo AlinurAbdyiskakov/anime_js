@@ -1,35 +1,24 @@
-// import './Redux_1.scss';
-// import { useEffect, useState } from "react"
-// import axios from "axios"
-
-// function Redux_1() {
-//   const [firebaseexample , setTitle] = useState("Loading...");
-//   useEffect(() => {
-//     axios.get('https://fir-example-5ffa8-default-rtdb.firebaseio.com/example.json' )
-//       .then(response => {
-//         setTitle(response.data);
-//       });
-//   }, );
-//   return (
-   
-//     <div className="App">
-//     {firebaseexample}
-//     <input type="text" onChange={(event)=>console.log(event.target.value)}></input>
-//     </div>
-//   );
-// }
-
-// export default Redux_1;
 import React from 'react'
+import classes from './Redux_1.module.css'
+import in1 from '../../imges/in1.jpg'
 
 function Redux_1() {
-  return (
-    <div>
-      <div class="img_1">
-   <h1>helo</h1>
-      </div>
-    </div>
-  )
+    return ( <
+        div >
+        <
+        div className = { classes.Redux_1 } >
+        <
+        div className = { classes.in1 } >
+        <
+        img src = { in1 }
+        alt = "interesting" / >
+        <
+        p > < a href = "http://ai.mof.x10.bz/promises/" > ai.mof.x10.bz / promises < /a>-  сайт, на котором можно отправлять и просматривать анонимные обещания его посетителей</p >
+        <
+        /div> </div >
+        <
+        /div>
+    )
 }
 
 export default Redux_1
