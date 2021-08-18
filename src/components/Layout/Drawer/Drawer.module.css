@@ -1,0 +1,27 @@
+.Drawer .content {
+    background-color: #dac384;
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    padding-top: .3rem;
+    padding-left: .1rem;
+    z-index: 1;
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.closed {
+    transform: translateX(-260px);
+}
+
+@media (min-width: 770px) {
+    .Drawer {
+        z-index: 1;
+        display: none;
+    }
+}

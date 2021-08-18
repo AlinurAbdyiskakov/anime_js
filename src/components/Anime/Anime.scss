@@ -1,8 +1,21 @@
 $color:#fff;
 $bcolor:blue;
+$rcolor:rgb(148, 148, 148);
+@mixin border {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $rcolor;
+    margin-top: 20px;
+}
+
 .Anime {
     color: $color;
-    background-color: $bcolor;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -14,9 +27,5 @@ video {
 }
 
 .anime_1 {
-    width: 300px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    @include border()
 }

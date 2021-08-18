@@ -11,7 +11,7 @@
 //       });
 //   }, );
 //   return (
-
+   
 //     <div className="App">
 //     {firebaseexample}
 //     <input type="text" onChange={(event)=>console.log(event.target.value)}></input>
@@ -23,15 +23,13 @@
 import React from 'react'
 
 function Redux_1() {
-    return ( <
-        div >
-        <
-        div class = "img_1" >
-        <
-        h1 > helo < /h1> <
-        /div> <
-        /div>
-    )
+  return (
+    <div>
+      <div class="img_1">
+   <h1>helo</h1>
+      </div>
+    </div>
+  )
 }
 
 export default Redux_1
