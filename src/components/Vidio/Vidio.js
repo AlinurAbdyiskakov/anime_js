@@ -8,6 +8,11 @@ import vidio5 from '../../vidio/vidio5.mp4'
 import vidio6 from '../../vidio/vidio6.mp4'
 import vidio7 from '../../vidio/vidio7.mp4'
 import vidio8 from '../../vidio/vidio8.mp4'
+import vidio9 from '../../vidio/vidio9.mp4'
+import vidio10 from '../../vidio/vidio10.mp4'
+import vidio11 from '../../vidio/vidio11.mp4'
+import vidio12 from '../../vidio/vidio12.mp4'
+import vidio13 from '../../vidio/vidio13.mp4'
 
 function Vidio() {
     return ( < div className = { classes.Vidio } >
@@ -31,6 +36,16 @@ function Vidio() {
         video src = { vidio7 }
         controls loop > < /video>  <
         video src = { vidio8 }
+        controls loop > < /video>  <
+        video src = { vidio9 }
+        controls loop > < /video>  <
+        video src = { vidio10 }
+        controls loop > < /video>  <
+        video src = { vidio11 }
+        controls loop > < /video>  <
+        video src = { vidio12 }
+        controls loop > < /video>  <
+        video src = { vidio13 }
         controls loop > < /video>  <
         /div>
     )
