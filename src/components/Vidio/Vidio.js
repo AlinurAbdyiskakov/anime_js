@@ -13,7 +13,7 @@ import vidio10 from '../../vidio/vidio10.mp4'
 import vidio11 from '../../vidio/vidio11.mp4'
 import vidio12 from '../../vidio/vidio12.mp4'
 import vidio13 from '../../vidio/vidio13.mp4'
-import vidio14 from '../../vidio/vidio15.mp4'
+import vidio14 from '../../vidio/vidio14.mp4'
 
 function Vidio() {
     return ( < div className = { classes.Vidio } >
@@ -25,9 +25,9 @@ function Vidio() {
 
         <
         video src = { vidio2 }
-        controls loop > < /video>   <
+        controls loop > < /video>  <
         video src = { vidio3 }
-        controls loop > < /video>   <
+        controls loop > < /video>  <
         video src = { vidio4 }
         controls loop > < /video>  <
         video src = { vidio5 }
@@ -37,21 +37,16 @@ function Vidio() {
         video src = { vidio7 }
         controls loop > < /video>  <
         video src = { vidio8 }
-        controls loop > < /video>  <
-        video src = { vidio9 }
+        controls loop > < /video>  <video src = { vidio9 }
         controls loop > < /video>  <
         video src = { vidio10 }
         controls loop > < /video>  <
         video src = { vidio11 }
-        controls loop > < /video>  <
-        video src = { vidio12 }
-        controls loop > < /video>  <
-        video src = { vidio13 }
-        controls loop > < /video>  <
-        video src = { vidio14 }
-        controls loop > < /video>  <
-        /div>
+        controls loop > < /video>  <video src = { vidio12 }
+        controls loop > < /video>  <video src = { vidio13 }
+        controls loop > < /video>  <video src = { vidio14 }
+        controls loop > < /video>  </div >
     )
 }
 
-export default Vidio
+export default Vidio;
