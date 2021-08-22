@@ -29,11 +29,11 @@ function App() {
         <
         Route path = "/musec"
         component = { Vidio }
-        />  <Route path = "/anime
-        "
+        />   <
+        Route path = "/anime"
         component = { Anime }
-        /> <Route path = "/redux
-        "
+        />  <
+        Route path = "/redux"
         component = { Redux_1 }
         /> </div >
 

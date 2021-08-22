@@ -1,4 +1,4 @@
-// import React from 'react'
+//  import React from 'react'
 // import classes from '../Home/Home.module.css'
 // import axios from '../axios';
 // function Home() {
@@ -52,15 +52,16 @@ function Home() {
         <
         div class = "margin" >
         <
-        h1 className = { classes.h1 } > Error < /h1> <
+        h1 className = { classes.h1 } > Error < /h1>  <
         h1 > Welcome < /h1>  <
         p > My names Alinur < /p> <
         /div> <span > Write problems sait: {value}</span >
         <
         input type = "text"
         value = { setValue }
-        /> <
-        button onClick = { onClick } > Push < /button> </div >
+        />  <
+        button onClick = { onClick } > Push < /button>  <
+        /div >
     )
 }
 
