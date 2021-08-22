@@ -3,8 +3,8 @@ import NavItem from "../NavItem/NavItem";
 
 const Nav = () => {
     return ( < ul className = { classes.Nav } >
-
         <
+        select > < option > < a href = "/" > < /a></option > < /select> <
         NavItem url = "/"
         exact > Home < /NavItem>  <
         NavItem url = "/musec" > Musec < /NavItem>
