@@ -14,38 +14,42 @@ import vidio11 from '../../vidio/vidio11.mp4'
 import vidio12 from '../../vidio/vidio12.mp4'
 import vidio13 from '../../vidio/vidio13.mp4'
 import vidio14 from '../../vidio/vidio14.mp4'
+import vidio15 from '../../vidio/vidio15.mp4'
+import vidio16 from '../../vidio/vidio16.mp4'
+import vidio17 from '../../vidio/vidio17.mp4'
 
 function Vidio() {
     return ( < div className = { classes.Vidio } >
         <
         video src = { vidio }
-        controls loop > < /video> 
-
-
+        controls > < /video> 
 
         <
         video src = { vidio2 }
-        controls loop > < /video>  <
+        controls > < /video>  <
         video src = { vidio3 }
-        controls loop > < /video>  <
+        controls > < /video>  <
         video src = { vidio4 }
-        controls loop > < /video>  <
+        controls > < /video>  <
         video src = { vidio5 }
-        controls loop > < /video>  <
-        video src = { vidio6 }
-        controls loop > < /video>  <
+        controls > < /video>  <video src = { vidio6 }
+        controls > < /video>  <
         video src = { vidio7 }
-        controls loop > < /video>  <
+        controls > < /video>  <
         video src = { vidio8 }
-        controls loop > < /video>  <video src = { vidio9 }
-        controls loop > < /video>  <
+        controls > < /video>  <video src = { vidio9 }
+        controls > < /video>  <
         video src = { vidio10 }
-        controls loop > < /video>  <
+        controls > < /video>  <
         video src = { vidio11 }
-        controls loop > < /video>  <video src = { vidio12 }
-        controls loop > < /video>  <video src = { vidio13 }
-        controls loop > < /video>  <video src = { vidio14 }
-        controls loop > < /video>  </div >
+        controls > < /video>  <video src = { vidio12 }
+        controls > < /video>  <video src = { vidio13 }
+        controls > < /video>  <video src = { vidio14 }
+        controls > < /video>   <
+        video src = { vidio15 }
+        controls > < /video>   <video src = { vidio16 }
+        controls > < /video>   <video src = { vidio17 }
+        controls > < /video> </div >
     )
 }
 
