@@ -14,7 +14,7 @@ import vidio11 from '../../vidio/vidio11.mp4'
 import vidio12 from '../../vidio/vidio12.mp4'
 import vidio13 from '../../vidio/vidio13.mp4'
 import vidio14 from '../../vidio/vidio14.mp4'
-import vidio_15 from '../../vidio/vidio15.mp4'
+import vidio15 from '../../vidio/vidio15.mp4'
 import vidio16 from '../../vidio/vidio16.mp4'
 import vidio17 from '../../vidio/vidio17.mp4'
 
@@ -46,7 +46,7 @@ function Vidio() {
         controls > < /video>  <video src = { vidio13 }
         controls > < /video>  <video src = { vidio14 }
         controls > < /video>   <
-        video src = { vidio_15 }
+        video src = { vidio15 }
         controls > < /video>   <video src = { vidio16 }
         controls > < /video>   <video src = { vidio17 }
         controls > < /video> </div >
