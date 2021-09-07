@@ -45,12 +45,14 @@ function Anime() {
         video src = { anime_5 }
         controls loop > < /video> <
         h1 > Аниме Сага о Винланде < /h1>  <
+        a href = "https://jut.su/vinland-saga/" > Смотреть < /a> <
         /div> <
         div class = "anime_1" >
         <
         video src = { anime_6 }
         controls loop > < /video> <
         h1 > Аниме Маг на полную ставку < /h1>  <
+        a href = "https://animang.ru/1282-mag-na-polnuyu-stavku-1-sezon.html" > Смотреть < /a> <
         /div> <
         div class = "anime_1" >
         <
