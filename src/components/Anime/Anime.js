@@ -16,15 +16,17 @@ function Anime() {
         video src = { anime_1 }
         controls loop / >
         <
-        h1 > аниме гаргантия на зелёной планете < /h1>
-
-        <
+        h1 > аниме гаргантия на зелёной планете < /h1> <
+        a class = "aa"
+        href = "https://jut.su/suisei-no-gargantia/" > Смотреть < /a> <
         /div>  <
         div class = "anime_1" >
         <
         video src = { anime_2 }
         controls loop > < /video>  <
-        h1 > аниме невиданный цветок < /h1> </div >
+        h1 > аниме невиданный цветок < /h1> <
+        a class = "aa"
+        href = "https://jut.su/mada-shiranai/" > Смотреть < /a> </div >
         <
         div class = "anime_1" >
         <
@@ -33,12 +35,18 @@ function Anime() {
         <
         /video> <
         h1 > повседневная жизнь бессмертного короля < /h1>  <
+        a class = "aa"
+        href = "https://amedia.online/567-povsednevnaja-zhizn-bessmertnogo-korolja.html" > Смотреть < /a> <
         /div> <
         div class = "anime_1" >
         <
         video src = { anime_4 }
         controls loop > < /video> <
-        h1 > Аниме Насколько тяжёлые гантели ты сможешь поднять < /h1>  <
+        h1 > Аниме Насколько тяжёлые гантели ты сможешь поднять < /h1> 
+
+        <
+        a class = "aa"
+        href = "   https://anivost.org/110-naskolko-tyazhelye-ganteli-ty-smozhesh-podnyat.html" > Смотреть < /a> <
         /div> <
         div class = "anime_1" >
         <
@@ -61,6 +69,8 @@ function Anime() {
         video src = { anime_7 }
         controls loop > < /video> <
         h1 > Аниме Восхождения героя щита < /h1>  <
+        a class = "aa"
+        href = "https://jut.su/tate-yuusha-nariagari/" > Смотреть < /a> <
         /div> <
         /div>
     )
