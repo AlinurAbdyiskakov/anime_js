@@ -50,7 +50,7 @@ function Anime() {
         <
         video src = { anime_6 }
         controls loop > < /video> <
-        h1 > Аниме Мфг на полную ставку < /h1>  <
+        h1 > Аниме Маг на полную ставку < /h1>  <
         /div> <
         div class = "anime_1" >
         <
