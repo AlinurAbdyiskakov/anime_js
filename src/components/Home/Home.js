@@ -10,6 +10,9 @@ const Home = () => {
             console.log(res);
         }).catch(err => { console.log(err); })
     }
+    const click = () => {
+        alert("спасибо за помощ")
+    }
     return ( <
         div className = { classes.Home } >
 
@@ -30,7 +33,8 @@ const Home = () => {
         textarea name = "message"
         rows = "5" / >
         <
-        input type = "submit"
+        input onClick = { click }
+        type = "submit"
         className = { classes.Button }
         value = "Send" / >
         <
