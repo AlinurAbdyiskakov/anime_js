@@ -11,7 +11,7 @@ const Home = () => {
         }).catch(err => { console.log(err); })
     }
     const click = () => {
-        alert("спасибо за помощ")
+        alert("спасибо за помощ   от имени Ali....")
     }
     return ( <
         div className = { classes.Home } >
