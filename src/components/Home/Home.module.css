@@ -39,4 +39,5 @@ input:hover {
 
 textarea {
     min-width: 500px;
+    border-radius: 15px;
 }
