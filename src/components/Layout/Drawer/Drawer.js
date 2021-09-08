@@ -9,21 +9,17 @@ const Drawer = ({ open, closeDrawer }) => {
         open ? classes.open : classes.closed
     ];
 
-    return ( <
-        div className = { classes.Drawer } >
+    return ( < div className = { classes.Drawer } >
         <
         Backdrop show = { open }
         click = { closeDrawer }
-        /> <
-        div className = { drawerClasses.join(" ") } >
-        <
+        /> <div className = { drawerClasses.join(" ") } > <
         Logo / >
         <
         Nav / >
 
         <
-        /div> <
-        /div>
+        /div> </div >
     );
 }
 
