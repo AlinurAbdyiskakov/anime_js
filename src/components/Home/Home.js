@@ -31,6 +31,7 @@ const Home = () => {
         rows = "5" / >
         <
         input type = "submit"
+        className = { classes.Button }
         value = "Send" / >
         <
         /form> <
