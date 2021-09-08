@@ -29,6 +29,7 @@ body {
 video {
     width: 300px;
     height: 400px;
+    margin: 0 auto;
 }
 
 .anime_1 {
@@ -38,8 +39,8 @@ video {
 .aa {
     margin: 0 auto;
     background-color: green;
-    width: 90px;
-    height: 20px;
+    min-width: 90px;
+    min-height: 50px;
     padding: 10px;
     color: black;
     font-size: 20px;
