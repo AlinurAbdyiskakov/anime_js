@@ -1,48 +1,42 @@
-body {
-    background-color: black;
-    text-align: center;
-    margin-top: 30% auto;
-    color: #fff;
-}
-
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 30px;
-    font-size: 25px;
-}
-
 .Home {
+    text-align: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
-span {
-    margin-top: 20px;
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.Button {
+    background-color: green;
+    font-size: 20px;
+    color: black;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    height: 50px;
 }
 
 input {
-    width: 200px;
-    height: 30px;
-    margin: 20px auto;
-    border-radius: 10px;
-    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
-.h1 {
-    color: red;
-    font-size: 40px;
+input:hover {
+    box-shadow: 0 0 10px black;
 }
 
-button {
-    width: 100px;
-    height: 40px;
-    margin: 5px auto;
-    padding: 10px 10px;
-    border-radius: 15px;
-    border: none;
-    box-shadow: 0 0 20px black;
-    background-color: green;
+textarea {
+    min-width: 500px;
 }
