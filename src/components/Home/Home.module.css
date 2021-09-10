@@ -38,6 +38,6 @@ input:hover {
 }
 
 textarea {
-    min-width: 500px;
+    width: 250px;
     border-radius: 15px;
 }

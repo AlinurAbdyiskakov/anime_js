@@ -1,7 +1,7 @@
 .Toolbar {
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     font-family: 'Redressed', cursive;
     top: 0;
     left: 0;
@@ -14,7 +14,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
-@media (max-width: 770px) {
+@media (max-width: 780px) {
     .Toolbar nav {
         display: none;
     }

@@ -1,5 +1,5 @@
 .DrawerOpen {
-    height: 3rem;
+    height: 100px;
     padding: 1rem;
     display: flex;
     flex-flow: column;
@@ -18,7 +18,7 @@
     margin-bottom: .5rem;
 }
 
-@media (min-width: 770px) {
+@media (min-width: 780px) {
     .DrawerOpen {
         display: none;
         overflow-x: hidden;
