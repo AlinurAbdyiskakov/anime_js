@@ -7,7 +7,7 @@ const Nav = () => {
 
         <
         NavItem url = "/"
-        exact > Help < /NavItem>  <
+        exact > Home < /NavItem>  <
         NavItem url = "/musec" > Musec < /NavItem>
 
         <
