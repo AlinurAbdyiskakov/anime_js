@@ -12,11 +12,9 @@ const Toolbar = ({
         <
         Logo / >
         <
-        nav >
-        <
         Nav / >
+
         <
-        /nav> <
         DrawerOpen click = {
             openDrawer
         }
