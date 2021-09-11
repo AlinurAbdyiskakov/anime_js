@@ -7,8 +7,8 @@ function Logo() {
         <
         img src = { logo }
         alt = "logo" / >
+
         <
-        h1 > Дөөлөс < /h1> <
         /div>
     )
 }
