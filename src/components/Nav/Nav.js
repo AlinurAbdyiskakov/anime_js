@@ -12,7 +12,9 @@ const Nav = () => {
 
         <
         NavItem url = "/anime" > Anime < /NavItem>  <
-        NavItem url = "/redux" > Interesting sites < /NavItem>   <
+        NavItem url = "/redux" > Interesting sites < /NavItem>  
+
+        <
         /ul>
     )
 }
