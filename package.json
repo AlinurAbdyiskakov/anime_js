@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "ajax": "0.0.4",
+    "bootstrap-icons": "^1.5.0",
     "emailjs-com": "^3.2.0",
     "firebase": "^8.10.0",
     "functions": "^1.0.9",
