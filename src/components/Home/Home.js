@@ -23,15 +23,18 @@ const Home = () => {
         h1 > The problems < /h1> <
         label > Name < /label> <
         input type = "text"
-        name = "name" / >
+        name = "name"
+        required validity = "hahoho" / >
         <
         label > Email < /label> <
         input type = "email"
-        name = "user_email" / >
+        name = "user_email"
+        required validity = "hahoho" / >
         <
         label > Massage < /label> <
         textarea name = "message"
-        rows = "5" / >
+        rows = "5"
+        required validity = "babynpm start" / >
         <
         input onClick = { click }
         type = "submit"
