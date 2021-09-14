@@ -31,7 +31,7 @@ const Home = () => {
         name = "user_email"
         required validity = "hahoho" / >
         <
-        label > Massage < /label> <
+        label > Message < /label> <
         textarea name = "message"
         rows = "5"
         required validity = "babynpm start" / >

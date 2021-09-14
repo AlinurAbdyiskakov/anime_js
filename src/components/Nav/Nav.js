@@ -2,8 +2,8 @@ import classes from "./Nav.module.css";
 import NavItem from "../NavItem/NavItem";
 import moon from "../../imges/moon.svg"
 import sun from "../../imges/sun.svg"
-const Nav = () => {
 
+const Nav = () => {
 
     return ( < ul className = { classes.Nav } >
 
