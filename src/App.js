@@ -14,28 +14,20 @@ import Layout from './components/Layout/Layout'
 
 function App() {
     return ( < div className = "App" >
-        <
-        div className = "Toolbar" >
+        <div className = "Toolbar" >
 
-        <
-        Layout / >
-        <
-        /div>
+        <Layout/>
+        </div>
 
 
-        <
-        Route path = "/"
+        <Route path = "/"
         component = { Home }
-        exact / >
-        <
-        Route path = "/musec"
+        exact/>
+        <Route path = "/musec"
         component = { Vidio }
-        />   <
-        Route path = "/anime"
-        component = { Anime }
-        />  <
-        Route path = "/redux"
-        component = { Redux_1 }
+        />  
+         <Route path = "/anime" component = { Anime }/> 
+         <Route path = "/redux" component = { Redux_1 }
         /> </div >
 
 
