@@ -25,44 +25,50 @@ import vidio_22 from '../../vidio/vidio22.mp4'
 import vidio_23 from '../../vidio/vidio23.mp4'
 import vidio_24 from '../../vidio/vidio24.mp4'
 import vidio_25 from '../../vidio/vidio25.mp4'
-function Vidio() {
-    return ( <div className = { classes.Vidio } >
-        <video src = { vidio }
-        controls >  </video> 
 
-        <video src = { vidio2 }
-        controls > </video> 
-          <video src = { vidio3 }
-        controls > </video> 
-          <video src = { vidio4 }
-        controls > </video> 
-         <video src = { vidio5 }
-        controls > </video>  <video src = { vidio6 }
-        controls  > </video> 
-         <video src = { vidio7 }
-        controls > </video> 
-         <video src = { vidio8 }
-        controls > </video>  <video src = { vidio9 }
-        controls > </video> 
-         <video src = { vidio10 }controls > </video> 
-         <video src = { vidio11 }controls > </video>  <video src = { vidio12 }
-        controls> </video>  <video src = { vidio13 }
-        controls > </video>  <video src = { vidio14 }
-        controls > </video>  
-          <video src = { vidio15 }
-        controls > </video>   <video src = { vidio16 }
-        controls > </video>   <video src = { vidio17 }
-        controls > </video> 
-           <video src = { vidio_18 }
-        controls > </video> 
-          <video src = { vidio_19 }
-        controls > </video>  <video src = { vidio_20 }
-        controls > </video>  <video src = { vidio_21 }
-        controls > </video>  <video src = { vidio_22}
-        controls > </video>  <video src = { vidio_23 }
-        controls > </video>    <video src = { vidio_24 }
-        controls > </video> <video src = { vidio_25 }
-        controls > </video>  </div>
+function Vidio() {
+    return ( < div className = { classes.Vidio } >
+        <
+        video src = { vidio }
+        controls > < /video> 
+
+        <
+        video src = { vidio2 }
+        controls > < /video>  <
+        video src = { vidio3 }
+        controls > < /video>  <
+        video src = { vidio4 }
+        controls > < /video>  <
+        video src = { vidio5 }
+        controls > < /video>  <video src = { vidio6 }
+        controls > < /video>  <
+        video src = { vidio7 }
+        controls > < /video>  <
+        video src = { vidio8 }
+        controls > < /video>  <video src = { vidio9 }
+        controls > < /video>  <
+        video src = { vidio10 }
+        controls > < /video>  <
+        video src = { vidio11 }
+        controls > < /video>  <video src = { vidio12 }
+        controls > < /video>  <video src = { vidio13 }
+        controls > < /video>  <video src = { vidio14 }
+        controls > < /video>   <
+        video src = { vidio15 }
+        controls > < /video>   <video src = { vidio16 }
+        controls > < /video>   <video src = { vidio17 }
+        controls > < /video>  <
+        video src = { vidio_18 }
+        controls > < /video>  <
+        video src = { vidio_19 }
+        controls > < /video>  <video src = { vidio_20 }
+        controls > < /video>  <video src = { vidio_21 }
+        controls > < /video>  <video src = { vidio_22}
+        controls > < /video>  <video src = { vidio_23 }
+        controls > < /video>    <video src = { vidio_24 }
+        controls > < /video> <video src = { vidio_25 }
+        controls > < /video>  <
+        /div>
     )
 }
 
