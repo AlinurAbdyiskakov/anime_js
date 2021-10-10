@@ -25,7 +25,7 @@ import vidio_22 from '../../vidio/vidio22.mp4'
 import vidio_23 from '../../vidio/vidio23.mp4'
 import vidio_24 from '../../vidio/vidio24.mp4'
 import vidio_25 from '../../vidio/vidio25.mp4'
-import vidio_26 from '../../vidio/vidio_26.mp4'
+import vidio_26 from '../../vidio/vidio27.mp4'
 
 function Vidio() {
     return ( < div className = { classes.Vidio } >
