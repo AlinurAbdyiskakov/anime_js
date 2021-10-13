@@ -76,8 +76,8 @@ function Vidio() {
         video src = { vidio_27 }
         controls > < /video>  <
         video src = { vidio_28 }
-        controls > < /video>  < /
-        div >
+        controls > < /video>  <
+        /div>
     )
 }
 
