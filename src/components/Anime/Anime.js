@@ -13,7 +13,7 @@ import anime_9 from '../../vidio/vidio26.mp4'
 import anime_10 from '../../vidio/anime_10.mp4'
 import anime_12 from '../../vidio/video38.mp4'
 import anime_13 from '../../vidio/video39.mp4'
-import anime_14 from '../../vidio/video38.mp4'
+import anime_14 from '../../vidio/anime_11.mp4'
 
 function Anime() {
     return ( < div class = "Anime" >
