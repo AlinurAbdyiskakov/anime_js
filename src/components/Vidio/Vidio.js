@@ -34,6 +34,7 @@ import video_325 from '../../vidio/video32.mp4'
 import video_32 from '../../vidio/video33.mp4'
 import video_33 from '../../vidio/video34.mp4'
 import video_34 from '../../vidio/video35.mp4'
+import video_35 from '../../vidio/video36.mp4'
 
 function Vidio() {
     return ( < div className = { classes.Vidio } >
@@ -95,6 +96,8 @@ function Vidio() {
         video src = { video_33 }
         controls > < /video>  <
         video src = { video_34 }
+        controls > < /video>  <
+        video src = { video_35 }
         controls > < /video>  <
         /div>
     )
