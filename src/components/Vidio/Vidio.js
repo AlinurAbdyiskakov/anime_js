@@ -30,7 +30,7 @@ import vidio_27 from '../../vidio/vidio28.mp4'
 import vidio_28 from '../../vidio/vidio29.mp4'
 import vidio_29 from '../../vidio/video30.mp4'
 import video_30 from '../../vidio/video31.mp4'
-import video_325 from '../../vidio/video32.mp4'
+import video_31 from '../../vidio/video32.mp4'
 import video_32 from '../../vidio/video33.mp4'
 import video_33 from '../../vidio/video34.mp4'
 import video_34 from '../../vidio/video35.mp4'
@@ -91,7 +91,7 @@ function Vidio() {
         controls > < /video>  <
         video src = { video_32 }
         controls > < /video>  <
-        video src = { video_325 }
+        video src = { video_31 }
         controls > < /video>  <
         video src = { video_33 }
         controls > < /video>  <
