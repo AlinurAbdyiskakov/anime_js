@@ -30,60 +30,56 @@ import vidio_27 from '../../vidio/vidio28.mp4'
 import vidio_28 from '../../vidio/vidio29.mp4'
 import vidio_29 from '../../vidio/video30.mp4'
 import video_30 from '../../vidio/video31.mp4'
-
 function Vidio() {
-    return ( < div className = { classes.Vidio } >
-        <
-        video src = { vidio }
-        controls > < /video> 
+    return ( <div className = { classes.Vidio } >
+      <FontAwesomeIcon icon="fa-solid fa-arrow-up" />
+        <video src = { vidio }
+        controls >  </video> 
 
-        <
-        video src = { vidio2 }
-        controls > < /video>  <
-        video src = { vidio3 }
-        controls > < /video>  <
-        video src = { vidio4 }
-        controls > < /video>  <
-        video src = { vidio5 }
-        controls > < /video>  <video src = { vidio6 }
-        controls > < /video>  <
-        video src = { vidio7 }
-        controls > < /video>  <
-        video src = { vidio8 }
-        controls > < /video>  <video src = { vidio9 }
-        controls > < /video>  <
-        video src = { vidio10 }
-        controls > < /video>  <
-        video src = { vidio11 }
-        controls > < /video>  <video src = { vidio12 }
-        controls > < /video>  <video src = { vidio13 }
-        controls > < /video>  <video src = { vidio14 }
-        controls > < /video>   <
-        video src = { vidio15 }
-        controls > < /video>   <video src = { vidio16 }
-        controls > < /video>   <video src = { vidio17 }
-        controls > < /video>  <
-        video src = { vidio_18 }
-        controls > < /video>  <
-        video src = { vidio_19 }
-        controls > < /video>  <video src = { vidio_20 }
-        controls > < /video>  <video src = { vidio_21 }
-        controls > < /video>  <video src = { vidio_22}
-        controls > < /video>  <video src = { vidio_23 }
-        controls > < /video>    <video src = { vidio_24 }
-        controls > < /video> <video src = { vidio_25 }
-        controls > < /video>  <
-        video src = { vidio_26 }
-        controls > < /video>  <
-        video src = { vidio_27 }
-        controls > < /video>  <
-        video src = { vidio_28 }
-        controls > < /video>  <
-        video src = { vidio_29 }
-        controls > < /video>  <
-        video src = { video_30 }
-        controls > < /video>  <
-        /div>
+        <video src = { vidio2 }
+        controls > </video> 
+          <video src = { vidio3 }
+        controls > </video> 
+          <video src = { vidio4 }
+        controls > </video> 
+         <video src = { vidio5 }
+        controls > </video>  <video src = { vidio6 }
+        controls  > </video> 
+         <video src = { vidio7 }
+        controls > </video> 
+         <video src = { vidio8 }
+        controls > </video>  <video src = { vidio9 }
+        controls > </video> 
+         <video src = { vidio10 }controls > </video> 
+         <video src = { vidio11 }controls > </video>  <video src = { vidio12 }
+        controls> </video>  <video src = { vidio13 }
+        controls > </video>  <video src = { vidio14 }
+        controls > </video>  
+          <video src = { vidio15 }
+        controls > </video>   <video src = { vidio16 }
+        controls > </video>   <video src = { vidio17 }
+        controls > </video> 
+           <video src = { vidio_18 }
+        controls > </video> 
+          <video src = { vidio_19 }
+        controls > </video>  <video src = { vidio_20 }
+        controls > </video>  <video src = { vidio_21 }
+        controls > </video>  <video src = { vidio_22}
+        controls > </video>  <video src = { vidio_23 }
+        controls > </video>    <video src = { vidio_24 }
+        controls > </video> <video src = { vidio_25 }
+        controls > </video> 
+        <video src = { vidio_26 }
+        controls > </video> 
+         <video src = { vidio_27 }
+        controls > </video> 
+        <video src = { vidio_28 }
+        controls > </video> 
+        <video src = { vidio_29 }
+        controls > </video> 
+         <video src = { video_30 }
+        controls > </video> 
+         </div>
     )
 }
 
