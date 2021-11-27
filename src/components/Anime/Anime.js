@@ -11,6 +11,7 @@ import anime_8 from '../../vidio/anime8.mp4';
 import anime_11 from '../../vidio/anime9.mp4'
 import anime_9 from '../../vidio/vidio26.mp4'
 import anime_10 from '../../vidio/anime_10.mp4'
+import anime_12 from '../../vidio/video38.mp4'
 
 function Anime() {
     return ( < div class = "Anime" >
@@ -109,6 +110,16 @@ function Anime() {
         h1 > Аниме Ван Пис < /h1>  <
         a class = "aa"
         href = "https://jut.su/one-piece/episode-630.html" > Смотреть < /a> <
+        /div>
+
+        <
+        div class = "anime_1" >
+        <
+        video src = { anime_12 }
+        controls loop > < /video> <
+        h1 > Аниме Семь смертных грехов < /h1>  <
+        a class = "aa"
+        href = "https://jut.su/nanatsu-no-taizai/" > Смотреть < /a> <
         /div> <
         /div>
     )
