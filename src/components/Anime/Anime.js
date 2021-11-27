@@ -130,9 +130,9 @@ function Anime() {
         <
         video src = { anime_13 }
         controls loop > < /video> <
-        h1 > Аниме Семь смертных грехов < /h1>  <
+        h1 > Аниме Лунное путешествие к новому миру < /h1>  <
         a class = "aa"
-        href = "https://jut.su/nanatsu-no-taizai/" > Смотреть < /a> <
+        href = "https://jut.su/michibiku-isekai/" > Смотреть < /a> <
         /div>
 
         <
@@ -140,9 +140,9 @@ function Anime() {
         <
         video src = { anime_14 }
         controls loop > < /video> <
-        h1 > Аниме Семь смертных грехов < /h1>  <
+        h1 > Аниме Грабитель < /h1>  <
         a class = "aa"
-        href = "https://jut.su/nanatsu-no-taizai/" > Смотреть < /a> <
+        href = "https://animego.org/anime/grabitel-1350" > Смотреть < /a> <
         /div> <
         /div>
     )
