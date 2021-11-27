@@ -151,9 +151,9 @@ function Anime() {
         <
         video src = { anime_15 }
         controls loop > < /video> <
-        h1 > Аниме Грабитель < /h1>  <
+        h1 > Аниме Боец Баки < /h1>  <
         a class = "aa"
-        href = "https://animego.org/anime/grabitel-1350" > Смотреть < /a> <
+        href = "https://jut.su/baki/" > Смотреть < /a> <
         /div> <
         /div>
     )
