@@ -14,6 +14,7 @@ import anime_10 from '../../vidio/anime_10.mp4'
 import anime_12 from '../../vidio/video38.mp4'
 import anime_13 from '../../vidio/video39.mp4'
 import anime_14 from '../../vidio/anime_11.mp4'
+import anime_15 from '../../vidio/anime12.mp4'
 
 function Anime() {
     return ( < div class = "Anime" >
@@ -139,6 +140,16 @@ function Anime() {
         div class = "anime_1" >
         <
         video src = { anime_14 }
+        controls loop > < /video> <
+        h1 > Аниме Грабитель < /h1>  <
+        a class = "aa"
+        href = "https://animego.org/anime/grabitel-1350" > Смотреть < /a> <
+        /div>
+
+        <
+        div class = "anime_1" >
+        <
+        video src = { anime_15 }
         controls loop > < /video> <
         h1 > Аниме Грабитель < /h1>  <
         a class = "aa"
